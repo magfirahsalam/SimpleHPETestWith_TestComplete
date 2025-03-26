@@ -1,0 +1,2441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{EEDBE5D5-347E-4BAB-9BB6-E93B75DD61BD}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{4DA5F64F-9FE0-4D62-A7C1-C55814CFC417}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{035F310E-480F-4280-AF96-12BC952E2297}">
+								<Image FileName="-1528589354" Left="-11" Top="-11" Right="1931" Bottom="1019" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Chrome_RenderWidgetHostHWND" Key="{778BCF16-BEAF-4525-A966-F4666537EB42}">
+										<Image FileName="728145336" Left="0" Top="130" Right="1920" Bottom="1008" />
+										<TypeInfo Item0="{BBC7D781-5F31-4B5F-9376-908CB7952013}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Chrome_RenderWidgetHostHWND" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Chrome Legacy Window" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageSignInHpePartnerReadyPortal" Key="{5E0B8350-C58D-41C8-97B7-0C713226D43F}">
+								<Image FileName="811174994" Left="0" Top="130" Right="1920" Bottom="1008" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://partner.hpe.com/web/prp" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionContent" Key="{976F50BE-1FC1-4C47-BBBD-CE555441F482}">
+										<Image FileName="1852465066" Left="0" Top="299" Right="1897" Bottom="1351" />
+										<Selectors>
+											<Selector>
+												<Value Value="#content" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Sign In&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionPortletLoginportlet" Key="{1B97C22F-A7B1-441A-93B7-8D94FB4749B7}">
+										<Image FileName="1852465066" Left="150" Top="446" Right="664" Bottom="835" />
+										<Selectors>
+											<Selector>
+												<Value Value="#portlet_loginPortlet" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;p_p_id_loginPortlet_&apos;]/section[contains(@class, &apos;portlet&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;p_p_id_loginPortlet_&apos;]/section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxOktaemailinput" Key="{0FB8311A-5CF7-42F9-BEB0-82EFD06FADCB}">
+										<Image FileName="1852465066" Left="180" Top="591" Right="634" Bottom="644" />
+										<TypeInfo Item0="{B2D9449D-8C3F-4A77-AE1E-35E507CCCBF0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#oktaEmailInput" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;email&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;widget-email-id-input&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonOktasigninbtn" Key="{AA62AF3A-42B2-402A-B671-5FC52A49CB26}">
+										<Image FileName="-299223793" Left="180" Top="734" Right="634" Bottom="798" />
+										<TypeInfo Item0="{2C4113CC-3084-4F45-8715-43DAAC347673}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#oktaSignInBtn" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[.=&apos;Sign in&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;btn-sign-in&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@id=&apos;portlet_loginPortlet&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//section//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel" Key="{5CC931B6-8FC2-4FB0-9CF1-598F985CF2B8}">
+										<Image FileName="-1320975193" Left="274" Top="130" Right="1624" Bottom="179" />
+										<TypeInfo Item0="{E0F6D8ED-263F-4993-AA3E-FED4B2D76BCD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div/div[contains(@class, &apos;hpehf-centered-content&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel2" Key="{F5AD73B2-6592-4EF6-9186-FE9EC5146914}">
+										<Image FileName="1658080353" Left="0" Top="130" Right="1897" Bottom="180" />
+										<TypeInfo Item0="{E0F6D8ED-263F-4993-AA3E-FED4B2D76BCD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;hpehf-main-nav&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionDaftar" Key="{882D300F-BEBB-4ED0-98E4-83DCB5FD822D}">
+										<Image FileName="-490178463" Left="349" Top="482" Right="740" Bottom="703" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/section[contains(@class, &apos;portlet&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;column-1&apos;]//div[2]/section" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkDaftar" Key="{5501BBE1-3704-4760-B81B-9874968599E6}">
+										<Image FileName="-490178463" Left="364" Top="656" Right="725" Bottom="685" />
+										<TypeInfo Item0="{E0F6D8ED-263F-4993-AA3E-FED4B2D76BCD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Daftar&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;btn-registration&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;layout-column_column-1&apos;]//div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div/div/div/div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelDaftar" Key="{8EC82ADE-C88E-4FEF-A2D1-B65A3F00D83A}">
+										<Image FileName="187350746" Left="349" Top="500" Right="740" Bottom="703" />
+										<TypeInfo Item0="{E0F6D8ED-263F-4993-AA3E-FED4B2D76BCD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;okta-registration-content-wrapper&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionHpePartnerReadyPortal" Key="{2C3958CA-CB97-4525-B1EF-A36749334A47}">
+										<Image FileName="385012508" Left="758" Top="289" Right="1549" Bottom="691" />
+										<Selectors>
+											<Selector>
+												<Value Value="#portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_BiZLwRmgllet" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel3" Key="{89ECAFEA-E10A-4D20-9CE9-B34296EB9840}">
+										<Image FileName="385012508" Left="758" Top="289" Right="1154" Bottom="691" />
+										<TypeInfo Item0="{E0F6D8ED-263F-4993-AA3E-FED4B2D76BCD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;content-image&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSennaSurface1" Key="{E59F8330-E04A-4A59-B29C-8458FD51C7B6}">
+										<Image FileName="-1997525367" Left="0" Top="130" Right="1897" Bottom="1008" />
+										<TypeInfo Item0="{E0F6D8ED-263F-4993-AA3E-FED4B2D76BCD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#senna_surface1" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[contains(., &apos;HPE Partner Ready Portal&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[contains(@class, &apos;chrome&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="headerMasuk" Key="{D76F283C-E65A-49EF-A847-E3AD4D81C720}">
+										<Image FileName="-189265002" Left="364" Top="307" Right="725" Bottom="335" />
+										<TypeInfo Item0="{E0F6D8ED-263F-4993-AA3E-FED4B2D76BCD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//header[.=&apos;Masuk&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@id=&apos;portlet_loginPortlet&apos;]//header" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div[@id=&apos;column-1&apos;]//div[@id=&apos;p_p_id_loginPortlet_&apos;]/section//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeHpePartnerReadyPortal" Key="{CCAA5412-6321-4B1B-A834-C2264A917A13}">
+										<Image FileName="2043163592" Left="364" Top="556" Right="714" Bottom="643" />
+										<TypeInfo Item0="{E0F6D8ED-263F-4993-AA3E-FED4B2D76BCD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(., &apos;. Untuk selengkapnya, silakan tonton video&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;layout-column_column-1&apos;]//div/div/div/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div[2]/section//div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkHpehfHpeLogo" Key="{DC1F9BE7-C0FD-4B36-8F91-456924BB4E1A}">
+										<Image FileName="-1639905984" Left="349" Top="132" Right="429" Bottom="178" />
+										<Selectors>
+											<Selector>
+												<Value Value="#hpehf-hpe-logo" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@title=&apos;Hewlett Packard Enterprise&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;hpehf-logo-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;hpehf-logo&apos;]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vgHpehfLogoMobile" Key="{2DC062AA-E9F9-453B-BB4E-22C391BBA549}">
+										<Image FileName="-1639905984" Left="349" Top="137" Right="429" Bottom="171" />
+										<TypeInfo Item0="{E0F6D8ED-263F-4993-AA3E-FED4B2D76BCD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#hpehf-logo-mobile" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;home.html&apos;)]/*[name()=&apos;svg&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;hpehf-logo&apos;]/a/*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelSimpanInformasiMasuk" Key="{F4A23140-C264-4B58-AE49-E673869FEBD5}">
+										<Image FileName="-45577152" Left="135" Top="593" Right="333" Bottom="640" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(., &apos;Simpan informasi masuk&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//label[contains(@class, &apos;remember-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@id=&apos;portlet_loginPortlet&apos;]//div[2]/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div[@id=&apos;column-1&apos;]//section//div[2]/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSimpanInformasiMasuk" Key="{73FD2591-4759-425B-9976-CEC8EC82267F}">
+										<Image FileName="-45577152" Left="176" Top="606" Right="333" Bottom="631" />
+										<TypeInfo Item0="{E0F6D8ED-263F-4993-AA3E-FED4B2D76BCD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Simpan informasi masuk&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[contains(@class, &apos;remember-me-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@id=&apos;portlet_loginPortlet&apos;]//div[2]/label/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//section[@id=&apos;portlet_loginPortlet&apos;]//div/div[2]/label/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageSignInHpePartnerReadyPortal2" Key="{2185C9A0-BFBD-4E77-9B64-91C465A90CA9}">
+								<Image FileName="811174994" Left="0" Top="130" Right="1920" Bottom="1008" />
+								<TypeInfo Item0="{A2E90B6A-E992-4F5E-9136-9DE9B1E81330}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://partner.hpe.com/web/prp/login" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="passwordboxPassword" Key="{B08822A6-D291-4C68-9ED8-74C036757518}">
+										<Image FileName="1783751459" Left="678" Top="556" Right="1148" Bottom="607" />
+										<TypeInfo Item0="{B2D9449D-8C3F-4A77-AE1E-35E507CCCBF0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Password*required&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#password-sign-in" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//form/div[2]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonOnepassSubmitBtn" Key="{5ED4315F-D609-41DC-A1BE-261A9607298A}">
+										<Image FileName="-1904840808" Left="677" Top="638" Right="901" Bottom="695" />
+										<TypeInfo Item0="{2C4113CC-3084-4F45-8715-43DAAC347673}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#onepass-submit-btn" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//form//button[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//div[2]/form/div[3]/button[contains(@class, &apos;StyledButtonKind-sc-1vhfpnt-0&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//div[2]/form/div[3]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeInvalidCredentials" Key="{33D33329-9653-44C9-B056-15AECFAC03AC}">
+										<Image FileName="-1923755626" Left="809" Top="440" Right="906" Bottom="460" />
+										<TypeInfo Item0="{D78EEEFF-A043-4502-9708-C8EB61FABFAD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Invalid credentials&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//div[2]/form/div[@id=&apos;widget-login-error&apos;]/span[contains(@class, &apos;StyledText-sc-1sadyjn-0&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;widget-login-error&apos;]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//div[2]/form//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{9AC8169B-D16B-4558-8475-5271E0309C74}">
+										<Image FileName="-2138190156" Left="1116" Top="350" Right="1126" Bottom="360" />
+										<TypeInfo Item0="{E0F6D8ED-263F-4993-AA3E-FED4B2D76BCD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/span/*[name()=&apos;svg&apos;]/*[name()=&apos;path&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeInvalidCredentials2" Key="{0BD3CEED-2A70-4FBC-BBA5-BA89717FCBE5}">
+										<Image FileName="-186874590" Left="809" Top="440" Right="906" Bottom="460" />
+										<TypeInfo Item0="{D78EEEFF-A043-4502-9708-C8EB61FABFAD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Invalid credentials&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//div[2]/form/div[@id=&apos;widget-login-error&apos;]/span[contains(@class, &apos;StyledText-sc-1sadyjn-0&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;widget-login-error&apos;]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//div[2]/form//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPassword2" Key="{222F3314-939E-4B10-9EBA-E9831C9F3BC1}">
+										<Image FileName="1227630488" Left="769" Top="561" Right="1081" Bottom="595" />
+										<TypeInfo Item0="{B2D9449D-8C3F-4A77-AE1E-35E507CCCBF0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Password *required&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#password-sign-in" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//form/div[2]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelSignIn" Key="{27C7113F-71B3-4773-89F9-BC2BCE5F8100}">
+										<Image FileName="-539522069" Left="0" Top="130" Right="1897" Bottom="1008" />
+										<TypeInfo Item0="{E0F6D8ED-263F-4993-AA3E-FED4B2D76BCD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;ReactModal__Overlay&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pagePartnerHpeCom" Key="{A3A69A7B-1A4A-47D2-A89A-AFEAF0F1CC7B}">
+								<Image FileName="811174994" Left="0" Top="130" Right="1920" Bottom="1008" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://partner.hpe.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionContent" Key="{2F82154B-32F1-4815-8197-B718B605F849}">
+										<Image FileName="-647094383" Left="0" Top="239" Right="1897" Bottom="1250" />
+										<Selectors>
+											<Selector>
+												<Value Value="#content" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Beranda&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionTutupPesan" Key="{38D0C04D-661C-48E4-A24C-2888B95217B5}">
+										<Image FileName="-1734318512" Left="108" Top="2292" Right="985" Bottom="2292" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/section[contains(@class, &apos;portlet&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;column-4&apos;]//div[2]/section" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelClosemsg" Key="{8BD480B0-82FE-4386-AC11-2DD542819CA0}">
+										<Image FileName="-1734318512" Left="1689" Top="145" Right="1860" Bottom="181" />
+										<TypeInfo Item0="{E0F6D8ED-263F-4993-AA3E-FED4B2D76BCD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#closemsg" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;Tutup Pesan&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;alertClose&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSennaSurface1" Key="{22401B04-0FF8-4D13-8D13-EB0A619F3DB8}">
+										<Image FileName="-745930501" Left="0" Top="130" Right="1897" Bottom="2628" />
+										<TypeInfo Item0="{E0F6D8ED-263F-4993-AA3E-FED4B2D76BCD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#senna_surface1" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[contains(., &apos;Skip to Main Content&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[contains(@class, &apos;chrome&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="headerBanner" Key="{29BC1A6C-AB90-410C-8819-BAA25A5878CA}">
+										<Image FileName="1322150399" Left="0" Top="130" Right="1897" Bottom="203" />
+										<Selectors>
+											<Selector>
+												<Value Value="#banner" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(., &apos;HPE Partner Ready&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@role=&apos;banner&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(@class, &apos;h-fit-content&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;wrapper&apos;]/header" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel0" Key="{5EF9F29C-3C10-4DA0-B45D-8640660DE4EF}">
+										<Image FileName="1322150399" Left="1473" Top="130" Right="1657" Bottom="202" />
+										<TypeInfo Item0="{E0F6D8ED-263F-4993-AA3E-FED4B2D76BCD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;headerIcons&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel" Key="{200F3BA0-886D-48D4-B771-E6D0A9A03965}">
+										<Image FileName="855712592" Left="313" Top="154" Right="1455" Bottom="210" />
+										<TypeInfo Item0="{E0F6D8ED-263F-4993-AA3E-FED4B2D76BCD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;searchPart&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxCustomcommonsearch" Key="{38D0AC8C-D544-4DF9-8772-1EDE47330004}">
+										<Image FileName="855712592" Left="313" Top="146" Right="1455" Bottom="184" />
+										<TypeInfo Item0="{B2D9449D-8C3F-4A77-AE1E-35E507CCCBF0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#customCommonSearch" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;heading&apos;]//div[2]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;wrapper&apos;]/header[@role=&apos;banner&apos;]//div[2]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionYangBaru" Key="{34F5A2CB-F52A-429B-A70C-69A5E6356922}">
+										<Image FileName="947188568" Left="997" Top="251" Right="1657" Bottom="611" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/div/div[@id=&apos;column-2&apos;]/div/div/section[contains(@class, &apos;portlet&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;layout-column_column-2&apos;]//section" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/div/div[@id=&apos;column-2&apos;]/div/div/section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelYangBaru" Key="{21762155-3F73-4D7D-8393-C7CAB98EAA6E}">
+										<Image FileName="947188568" Left="1021" Top="275" Right="1419" Bottom="305" />
+										<TypeInfo Item0="{E0F6D8ED-263F-4993-AA3E-FED4B2D76BCD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;heading-div&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode0" Key="{772E909D-0C27-449C-A44C-E95BABB3194F}">
+										<Image FileName="1614720308" Left="1473" Top="154" Right="1657" Bottom="178" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;d-flex&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkUsericonimg" Key="{053DFD9F-9B7C-4356-A3CB-ABDF10436D4A}">
+										<Image FileName="1614720308" Left="1633" Top="154" Right="1657" Bottom="178" />
+										<Selectors>
+											<Selector>
+												<Value Value="#userIconImg" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;position-relative&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageUserSvg" Key="{AE469458-480A-4778-AF0E-2472688E3856}">
+										<Image FileName="1614720308" Left="1633" Top="156" Right="1655" Bottom="178" />
+										<TypeInfo Item0="{E0F6D8ED-263F-4993-AA3E-FED4B2D76BCD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//img[contains(@src, &apos;user.svg&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@id=&apos;userIconImg&apos;]/img" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkUrl" Key="{20098635-2798-4894-99B0-C5C604D02D44}">
+										<Image FileName="567002575" Left="1494" Top="658" Right="1669" Bottom="732" />
+										<Selectors>
+											<Selector>
+												<Value Value="#url" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Pengaturan&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;notificationArea&apos;]//li[2]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;notificationArea&apos;]/span[2]/ul/li[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePengaturan" Key="{C5B23722-3C2B-4EAE-ADF9-56B12DBF4272}">
+										<Image FileName="567002575" Left="1556" Top="684" Right="1639" Bottom="704" />
+										<TypeInfo Item0="{E0F6D8ED-263F-4993-AA3E-FED4B2D76BCD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Pengaturan&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@id=&apos;url&apos;]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]/a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link" Key="{5E1A2308-D81A-4B37-AE6C-A242774AB7B6}">
+										<Image FileName="1280231573" Left="1537" Top="154" Right="1561" Bottom="178" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;serachPortlet&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;heading&apos;]//li/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageSearchSvg" Key="{B0437398-FCEE-4B3D-9A98-1A855F4A7F39}">
+										<Image FileName="1280231573" Left="1537" Top="156" Right="1559" Bottom="178" />
+										<TypeInfo Item0="{E0F6D8ED-263F-4993-AA3E-FED4B2D76BCD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//img[contains(@src, &apos;search.svg&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;heading&apos;]//li/a/img" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/a/img" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageUserSvg2" Key="{903712A7-E191-4F3D-B6D4-8B641417589A}">
+										<Image FileName="-1980498353" Left="1644" Top="167" Right="1666" Bottom="189" />
+										<TypeInfo Item0="{D78EEEFF-A043-4502-9708-C8EB61FABFAD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//img[contains(@src, &apos;user.svg&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@id=&apos;userIconImg&apos;]/img" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageUserSvg3" Key="{86F67BA6-2C7C-40F6-AAF5-1374584A2A67}">
+										<Image FileName="-1980498353" Left="1644" Top="167" Right="1666" Bottom="189" />
+										<TypeInfo Item0="{D78EEEFF-A043-4502-9708-C8EB61FABFAD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//img[contains(@src, &apos;user.svg&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@id=&apos;userIconImg&apos;]/img" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageUserSvg4" Key="{0A754BD8-77F6-4EB3-9F86-8F757BBCF68E}">
+										<Image FileName="-1980498353" Left="1644" Top="167" Right="1666" Bottom="189" />
+										<TypeInfo Item0="{D78EEEFF-A043-4502-9708-C8EB61FABFAD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//img[contains(@src, &apos;user.svg&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@id=&apos;userIconImg&apos;]/img" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCloseMessage" Key="{24CBDF80-950A-4AFE-B0EF-D29809DCF3DA}">
+										<Image FileName="1606031671" Left="1522" Top="141" Right="1632" Bottom="162" />
+										<TypeInfo Item0="{E0F6D8ED-263F-4993-AA3E-FED4B2D76BCD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//font[text()=&apos;Close Message&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;closemsg&apos;]//font/font" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/div[3]//div[2]/section//font/font" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionSidenavbar" Key="{5390B548-C23B-401C-BB45-2C9867160FC8}">
+										<Image FileName="-2119678462" Left="265" Top="203" Right="289" Bottom="1003" />
+										<Selectors>
+											<Selector>
+												<Value Value="#sideNavBar" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;sideNavBar&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeHalamanSitus" Key="{D0347BD8-A1E5-47A9-9C4A-F4D926A953B8}">
+										<Image FileName="-2119678462" Left="265" Top="203" Right="289" Bottom="851" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[@id=&apos;sideNavBar&apos;]/div/ul[@role=&apos;menubar&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@id=&apos;sideNavBar&apos;]//ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@id=&apos;sideNavBar&apos;]/div/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkHpePartnerReadyVantage" Key="{33EBF328-F32A-4E3C-8596-2B0C37A3C944}">
+										<Image FileName="-2119678462" Left="265" Top="347" Right="537" Bottom="419" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[@aria-labelledby=&apos;layout_516&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[.=&apos;HPE Partner Ready Vantage&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;layout_516&apos;]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeHpePartnerReadyVantage" Key="{1B2B25F6-E0DD-4721-A5BE-E414C7523421}">
+										<Image FileName="-2119678462" Left="265" Top="371" Right="537" Bottom="395" />
+										<TypeInfo Item0="{E0F6D8ED-263F-4993-AA3E-FED4B2D76BCD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;HPE Partner Ready Vantage&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[@id=&apos;testFirstSideNavi&apos;]/ul/li[@id=&apos;layout_516&apos;]/a//span[contains(@class, &apos;pageTitle&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navTestsecondsidenavi" Key="{1349E173-A234-476F-9F23-FAA6EF59715F}">
+										<Image FileName="-399470026" Left="241" Top="203" Right="241" Bottom="203" />
+										<Selectors>
+											<Selector>
+												<Value Value="#testSecondSideNavi" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;Gambaran Umum Program&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeHalamanSitus2" Key="{9627FEED-E8F7-4793-A5A1-702C2003640B}">
+										<Image FileName="-399470026" Left="241" Top="203" Right="241" Bottom="203" />
+										<Selectors>
+											<Selector>
+												<Value Value="#second-side-navigation" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Gambaran Umum Program&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[@id=&apos;testSecondSideNavi&apos;]/ul[@role=&apos;menubar&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;second-main-menu&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[@id=&apos;testSecondSideNavi&apos;]/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkSellTrack" Key="{5AD883CE-77B7-4485-9BDC-0EB3E8501D0D}">
+										<Image FileName="-399470026" Left="585" Top="449" Right="867" Bottom="473" />
+										<TypeInfo Item0="{E0F6D8ED-263F-4993-AA3E-FED4B2D76BCD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[@aria-labelledby=(//li[.=&apos;Sell Track&apos;]/@id)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[.=&apos;Sell Track&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;layout_593&apos;]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navTestsidenavi" Key="{49544EB0-49EA-4A7D-8417-ACC9A01CD441}">
+										<Image FileName="1421923024" Left="241" Top="203" Right="241" Bottom="203" />
+										<Selectors>
+											<Selector>
+												<Value Value="#testSideNavi" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;As-a-Service&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeHalamanSitus3" Key="{B8365FDD-CBF1-4168-AEAF-3F9DA9037CE8}">
+										<Image FileName="1421923024" Left="241" Top="203" Right="241" Bottom="203" />
+										<Selectors>
+											<Selector>
+												<Value Value="#third-side-navigation" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;As-a-Service&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[@id=&apos;testSideNavi&apos;]/ul[@role=&apos;menubar&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[@id=&apos;testSideNavi&apos;]/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSellTrack" Key="{65CD8696-B417-4D8A-87D5-78364408D3A8}">
+										<Image FileName="1421923024" Left="241" Top="203" Right="241" Bottom="203" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[5]/ul[@role=&apos;menu&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[5]/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkAsAService" Key="{35304CBB-E94E-4729-BBB4-E0770F86182F}">
+										<Image FileName="1421923024" Left="915" Top="550" Right="1217" Bottom="574" />
+										<TypeInfo Item0="{E0F6D8ED-263F-4993-AA3E-FED4B2D76BCD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[@aria-labelledby=(//li[.=&apos;As-a-Service&apos;]/@id)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[.=&apos;As-a-Service&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;layout_616&apos;]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{D7F2EAF8-4E2F-43C8-BD0A-D6230342F597}">
+										<Image FileName="-2114683041" Left="477" Top="482" Right="485" Bottom="503" />
+										<TypeInfo Item0="{E0F6D8ED-263F-4993-AA3E-FED4B2D76BCD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[@id=&apos;testFirstSideNavi&apos;]/ul/li[@id=&apos;layout_516&apos;]/a//i[contains(@class, &apos;icon-angle-right&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;layout_516&apos;]//span/span/i" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[@id=&apos;testFirstSideNavi&apos;]/ul/li[@id=&apos;layout_516&apos;]/a//i" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeKeluar" Key="{537ED627-7D70-4373-86D1-2851BBD2F5FD}">
+										<Image FileName="1635162824" Left="1365" Top="802" Right="1562" Bottom="883" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(@class, &apos;logOut&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;heading&apos;]//span[2]/ul/li" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[2]/ul/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeKeluar2" Key="{E32519EC-77E3-40DD-9979-EB9E50AB76EF}">
+										<Image FileName="1635162824" Left="1456" Top="831" Right="1508" Bottom="854" />
+										<TypeInfo Item0="{E0F6D8ED-263F-4993-AA3E-FED4B2D76BCD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Keluar&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;logout&apos;)]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageBerandaHpePartnerReadyPortal" Key="{A336CFA6-E5C2-4244-8139-AB356EA0B31C}">
+								<Image FileName="-1799577143" Left="11" Top="130" Right="968" Bottom="1006" />
+								<TypeInfo Item0="{86953207-7F1D-4F89-815E-5F5D7B654E8F}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://partner.hpe.com/group/prp/home" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionContent" Key="{BC6BA0D3-E844-4D2C-82D6-0D587DCF1333}">
+										<Image FileName="-1799577143" Left="21" Top="203" Right="935" Bottom="2874" />
+										<TypeInfo Item0="{D78EEEFF-A043-4502-9708-C8EB61FABFAD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#content" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Beranda&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionTutupPesan" Key="{7637F076-7FF6-49DC-8CD6-4964668DB079}">
+										<Image FileName="-1799577143" Left="21" Top="2830" Right="478" Bottom="2830" />
+										<TypeInfo Item0="{D78EEEFF-A043-4502-9708-C8EB61FABFAD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/section[contains(@class, &apos;portlet&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;column-4&apos;]//div[2]/section" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelClosemsg" Key="{0BB29385-5AD3-4753-B330-CF08D125DD08}">
+										<Image FileName="-1799577143" Left="806" Top="140" Right="920" Bottom="164" />
+										<TypeInfo Item0="{D78EEEFF-A043-4502-9708-C8EB61FABFAD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#closemsg" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;Tutup Pesan&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;alertClose&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="headerBanner" Key="{6B8C7621-A020-412E-8D09-64CE2980B98E}">
+										<Image FileName="-647413542" Left="0" Top="130" Right="1897" Bottom="203" />
+										<Selectors>
+											<Selector>
+												<Value Value="#banner" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(., &apos;HPE Partner Ready&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@role=&apos;banner&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(@class, &apos;h-fit-content&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;wrapper&apos;]/header" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode0" Key="{101A9FD8-3E36-4774-A8A8-16DCB011B031}">
+										<Image FileName="-647413542" Left="1473" Top="154" Right="1657" Bottom="178" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;d-flex&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link" Key="{58EB6AB1-E4A1-47F2-8726-86D99DF6BA61}">
+										<Image FileName="-647413542" Left="1537" Top="154" Right="1561" Bottom="178" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;serachPortlet&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;heading&apos;]//li/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageSearchSvg" Key="{8C7E05E6-874A-4952-A0A8-EB7E69F9F38D}">
+										<Image FileName="-647413542" Left="1537" Top="156" Right="1559" Bottom="178" />
+										<TypeInfo Item0="{E0F6D8ED-263F-4993-AA3E-FED4B2D76BCD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//img[contains(@src, &apos;search.svg&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;heading&apos;]//li/a/img" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/a/img" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxCustomcommonsearch" Key="{8337597B-0C6E-4386-BAAA-BF60381D69E1}">
+										<Image FileName="1654286705" Left="313" Top="146" Right="1455" Bottom="184" />
+										<TypeInfo Item0="{B2D9449D-8C3F-4A77-AE1E-35E507CCCBF0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#customCommonSearch" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;heading&apos;]//div[2]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;wrapper&apos;]/header[@role=&apos;banner&apos;]//div[2]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionSidenavbar" Key="{35AD8717-A402-4D17-936B-EB2CE7361DBD}">
+										<Image FileName="-1277898113" Left="265" Top="203" Right="289" Bottom="1003" />
+										<Selectors>
+											<Selector>
+												<Value Value="#sideNavBar" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;sideNavBar&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeHalamanSitus" Key="{6747DF65-587C-4311-BBFE-CC710C6950A7}">
+										<Image FileName="-1277898113" Left="265" Top="203" Right="289" Bottom="851" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[@id=&apos;sideNavBar&apos;]/div/ul[@role=&apos;menubar&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@id=&apos;sideNavBar&apos;]//ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@id=&apos;sideNavBar&apos;]/div/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkHpePartnerReadyVantage" Key="{813DAFCA-4B2E-4E2B-A1AF-C78FC84D991B}">
+										<Image FileName="-1277898113" Left="265" Top="347" Right="537" Bottom="419" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[@aria-labelledby=&apos;layout_516&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[.=&apos;HPE Partner Ready Vantage&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;layout_516&apos;]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeHpePartnerReadyVantage" Key="{CEE85432-D965-4C10-847E-D97AD12397A8}">
+										<Image FileName="-1277898113" Left="265" Top="371" Right="537" Bottom="395" />
+										<TypeInfo Item0="{E0F6D8ED-263F-4993-AA3E-FED4B2D76BCD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;HPE Partner Ready Vantage&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[@id=&apos;testFirstSideNavi&apos;]/ul/li[@id=&apos;layout_516&apos;]/a//span[contains(@class, &apos;pageTitle&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navTestsecondsidenavi" Key="{16226B84-BA02-4517-BBA0-409E98EB4223}">
+										<Image FileName="1584682291" Left="241" Top="203" Right="241" Bottom="203" />
+										<Selectors>
+											<Selector>
+												<Value Value="#testSecondSideNavi" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;Gambaran Umum Program&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeHalamanSitus2" Key="{9B8F2E61-59C3-4FAB-9042-36F89D3E4946}">
+										<Image FileName="1584682291" Left="241" Top="203" Right="241" Bottom="203" />
+										<Selectors>
+											<Selector>
+												<Value Value="#second-side-navigation" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Gambaran Umum Program&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[@id=&apos;testSecondSideNavi&apos;]/ul[@role=&apos;menubar&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;second-main-menu&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[@id=&apos;testSecondSideNavi&apos;]/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkServiceTrack" Key="{75570196-0C7A-4AE2-8D72-68C1FBBAB0B0}">
+										<Image FileName="1584682291" Left="585" Top="487" Right="867" Bottom="511" />
+										<TypeInfo Item0="{E0F6D8ED-263F-4993-AA3E-FED4B2D76BCD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[@aria-labelledby=(//li[.=&apos;Service Track&apos;]/@id)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[.=&apos;Service Track&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;layout_572&apos;]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navTestsidenavi" Key="{5E5E8581-6BD8-403E-90F0-A7AE5E1D5BF1}">
+										<Image FileName="-1556622325" Left="241" Top="203" Right="241" Bottom="203" />
+										<Selectors>
+											<Selector>
+												<Value Value="#testSideNavi" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;Professional Services&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeHalamanSitus3" Key="{4C6E30DE-C11E-4476-8AA3-83650E5873C7}">
+										<Image FileName="-1556622325" Left="241" Top="203" Right="241" Bottom="203" />
+										<Selectors>
+											<Selector>
+												<Value Value="#third-side-navigation" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Professional Services&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[@id=&apos;testSideNavi&apos;]/ul[@role=&apos;menubar&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[@id=&apos;testSideNavi&apos;]/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeServiceTrack" Key="{33C14C79-AE97-4A18-98F8-9C7424178772}">
+										<Image FileName="-1556622325" Left="241" Top="203" Right="241" Bottom="203" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[6]/ul[@role=&apos;menu&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[6]/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkCustomerSuccess" Key="{6FEFCD80-58BD-4014-8FD0-FA80BEEA9389}">
+										<Image FileName="-1556622325" Left="915" Top="590" Right="1217" Bottom="614" />
+										<TypeInfo Item0="{E0F6D8ED-263F-4993-AA3E-FED4B2D76BCD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[@aria-labelledby=(//li[.=&apos;Customer Success&apos;]/@id)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[.=&apos;Customer Success&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;layout_606&apos;]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkUsericonimg" Key="{37CD5F28-B92C-4509-A223-D13C3FCAFF98}">
+										<Image FileName="360993989" Left="1718" Top="235" Right="1745" Bottom="262" />
+										<Selectors>
+											<Selector>
+												<Value Value="#userIconImg" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;position-relative&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageUserSvg" Key="{8D78C5CF-6644-4566-91B4-FE5870109725}">
+										<Image FileName="360993989" Left="1718" Top="238" Right="1743" Bottom="263" />
+										<TypeInfo Item0="{E0F6D8ED-263F-4993-AA3E-FED4B2D76BCD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//img[contains(@src, &apos;user.svg&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@id=&apos;userIconImg&apos;]/img" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeKeluar" Key="{A5246648-D8CF-4E11-9A9D-8EF72C19D939}">
+										<Image FileName="694685983" Left="1365" Top="802" Right="1562" Bottom="883" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(@class, &apos;logOut&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;heading&apos;]//span[2]/ul/li" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[2]/ul/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeKeluar2" Key="{19F2EB6D-D572-4E0E-989C-23AC85559A50}">
+										<Image FileName="694685983" Left="1456" Top="831" Right="1508" Bottom="854" />
+										<TypeInfo Item0="{E0F6D8ED-263F-4993-AA3E-FED4B2D76BCD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Keluar&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;logout&apos;)]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel0" Key="{69E7E7D9-8D53-49C1-A1FE-5F3177AE4A4B}">
+										<Image FileName="364899617" Left="1538" Top="208" Right="1745" Bottom="289" />
+										<TypeInfo Item0="{E0F6D8ED-263F-4993-AA3E-FED4B2D76BCD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;headerIcons&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkKeluar" Key="{9EA26AC8-C0A0-4862-8F6B-05F085A39683}">
+										<Image FileName="-2068188871" Left="1365" Top="802" Right="1562" Bottom="885" />
+										<TypeInfo Item0="{E0F6D8ED-263F-4993-AA3E-FED4B2D76BCD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Keluar&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;heading&apos;]//div[@id=&apos;notificationArea&apos;]/span[2]/ul/li/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;notificationArea&apos;]/span[2]/ul/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageAutomasiTestHpePartner" Key="{4E86E1A7-AC0A-44C2-A922-9C8F851A96E1}">
+								<Image FileName="-647413542" Left="0" Top="130" Right="1920" Bottom="957" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://chatgpt.com/c/67e21e29-cb18-8013-915b-32c43ddd8e82" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="headerHpePartnerTest" Key="{DA47AA49-BAD4-49AE-B481-34E84A67C1B5}">
+										<Image FileName="-647413542" Left="401" Top="130" Right="1920" Bottom="186" />
+										<Selectors>
+											<Selector>
+												<Value Value="//header[.=&apos;Hpe Partner Test&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(@class, &apos;@container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelHpePartnerTest" Key="{451B1C84-8AFB-44D4-9162-1FA1FE040520}">
+										<Image FileName="-647413542" Left="457" Top="140" Right="1634" Bottom="176" />
+										<TypeInfo Item0="{E0F6D8ED-263F-4993-AA3E-FED4B2D76BCD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//header/div[contains(@class, &apos;flex&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonHpePartnerTest" Key="{5EFB8E95-A057-47CD-ACF3-A7D4D1E6C524}">
+										<Image FileName="1654286705" Left="457" Top="140" Right="636" Bottom="176" />
+										<TypeInfo Item0="{2C4113CC-3084-4F45-8715-43DAAC347673}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Hpe Partner Test&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header/div/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]//section/header//button[contains(@class, &apos;text-token-text-primary&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeChatgpt" Key="{22BD0C96-D236-4497-A6D8-D81E0E25C6BA}">
+										<Image FileName="-1393251458" Left="0" Top="130" Right="1920" Bottom="957" />
+										<TypeInfo Item0="{E0F6D8ED-263F-4993-AA3E-FED4B2D76BCD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//body[contains(., &apos;ChatGPT&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelBerikutAdalahTestCaseUntuk" Key="{CFD28068-BC57-447B-A029-29E011C23C31}">
+										<Image FileName="1008364356" Left="0" Top="303" Right="377" Bottom="721" />
+										<TypeInfo Item0="{E0F6D8ED-263F-4993-AA3E-FED4B2D76BCD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//article[2]/div[contains(@class, &apos;my-auto&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//article[2]/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="form" Key="{918CC76F-661B-4784-A1F3-6F9967C0536A}">
+										<Image FileName="-1189695880" Left="20" Top="809" Right="380" Bottom="925" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;w-full&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel" Key="{5E72C9AB-60CA-403D-AF92-1DEE02196E4C}">
+										<Image FileName="-1189695880" Left="20" Top="809" Right="380" Bottom="925" />
+										<TypeInfo Item0="{E0F6D8ED-263F-4993-AA3E-FED4B2D76BCD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;px-3&apos;)]//form//div[contains(@class, &apos;px-3&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;composer-background&apos;]/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div/div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel2" Key="{08A26236-6E32-459A-B5BC-0828AA9F8459}">
+										<Image FileName="-1189695880" Left="32" Top="813" Right="368" Bottom="857" />
+										<TypeInfo Item0="{E0F6D8ED-263F-4993-AA3E-FED4B2D76BCD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;flex&apos;)]/form/div[contains(@class, &apos;flex&apos;)]/div[contains(@class, &apos;flex&apos;)]//div[contains(@class, &apos;flex&apos;)]//div[contains(@class, &apos;flex&apos;)]/div[contains(@class, &apos;flex&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageCustomSearch" Key="{DD50437A-D9CA-4076-8C40-0E8EF717D859}">
+								<TypeInfo Item0="{A2E90B6A-E992-4F5E-9136-9DE9B1E81330}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://partner.hpe.com/custom-search*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionContent" Key="{2D975141-9F85-45E1-9A39-B9E009A62F2D}">
+										<Image FileName="1008364356" Left="241" Top="203" Right="1657" Bottom="2458" />
+										<Selectors>
+											<Selector>
+												<Value Value="#content" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;FINAL 843_(spcprc-QUOTE) ANSIX12 V3.6 GLOBAL 08222023.pdf&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionPortletComHpePrpGlobalSea" Key="{ABF373CF-300B-4A34-B021-0766064E0BC9}">
+										<Image FileName="1008364356" Left="313" Top="251" Right="1657" Bottom="251" />
+										<Selectors>
+											<Selector>
+												<Value Value="#portlet_com_hpe_prp_global_search_application" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/div/div/div/div/section[contains(@class, &apos;portlet&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;p_p_id_com_hpe_prp_global_search_application_&apos;]/section" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/div/div/div/div/section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelDokumen" Key="{2C879D7D-6F9F-489D-95AA-E1BC68B3C8CF}">
+										<Image FileName="1008364356" Left="353" Top="433" Right="609" Bottom="457" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Dokumen&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//section//div[2]//ul/li[2]/label[contains(@class, &apos;checkboxContainer&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;searchFilterContent&apos;]//li[2]/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//section//div[2]//ul/li[2]/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{8444276C-669B-4E9E-B073-0936DEC55C60}">
+										<Image FileName="1008364356" Left="353" Top="433" Right="377" Bottom="457" />
+										<TypeInfo Item0="{E0F6D8ED-263F-4993-AA3E-FED4B2D76BCD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//section//div[2]//ul/li[2]/label/span[contains(@class, &apos;checkmark&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]/label/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelZip" Key="{7C81B5B2-A411-4EBA-9D1D-1E6D45F9AD32}">
+										<Image FileName="-406238610" Left="353" Top="673" Right="609" Bottom="697" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;ZIP&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//section//div[3]//ul/li[6]/label[contains(@class, &apos;checkboxContainer&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;fileExtensions&apos;]//li[6]/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//section//div[3]//ul/li[6]/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2" Key="{CDFEF610-9406-44E9-B6A4-D486512A60C8}">
+										<Image FileName="-406238610" Left="353" Top="673" Right="377" Bottom="697" />
+										<TypeInfo Item0="{E0F6D8ED-263F-4993-AA3E-FED4B2D76BCD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//section//div[3]//ul/li[6]/label/span[contains(@class, &apos;checkmark&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;fileExtensions&apos;]//li[6]/label/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[6]/label/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelJarakKostum" Key="{4455F6FA-610E-49CB-B529-130F488F1386}">
+										<Image FileName="-1189695880" Left="353" Top="849" Right="609" Bottom="873" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Jarak Kostum&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//section//div[4]//ul/li[3]/label[contains(@class, &apos;checkboxContainer&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;searchFilterContent&apos;]//li[3]/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//section//div[4]//ul/li[3]/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode3" Key="{E6B51FF4-C6C8-4F27-9E5A-70507AB5216F}">
+										<Image FileName="-1189695880" Left="353" Top="849" Right="377" Bottom="873" />
+										<TypeInfo Item0="{E0F6D8ED-263F-4993-AA3E-FED4B2D76BCD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//section//div[4]//ul/li[3]/label/span[contains(@class, &apos;checkmark&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;_com_hpe_prp_global_search_application_-root&apos;]//div[@id=&apos;searchFilterContent&apos;]//ul/li[3]/label/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@id=&apos;portlet_com_hpe_prp_global_search_application&apos;]//div[4]//div[@id=&apos;searchFilterContent&apos;]//ul/li[3]/label/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelBulanTerakhir" Key="{02B68B4C-86DE-49C3-98E2-0B1DCE024105}">
+										<Image FileName="-1189695880" Left="353" Top="817" Right="609" Bottom="841" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Bulan Terakhir&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//section//div[4]//ul/li[2]/label[contains(@class, &apos;checkboxContainer&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;searchFilterContent&apos;]//li[2]/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//section//div[4]//ul/li[2]/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode4" Key="{D6F69BFA-D12C-45E7-A9C4-CDEDA58D6E96}">
+										<Image FileName="-1189695880" Left="353" Top="817" Right="377" Bottom="841" />
+										<TypeInfo Item0="{E0F6D8ED-263F-4993-AA3E-FED4B2D76BCD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//section//div[4]//ul/li[2]/label/span[contains(@class, &apos;checkmark&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;_com_hpe_prp_global_search_application_-root&apos;]//div[@id=&apos;searchFilterContent&apos;]//ul/li[2]/label/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@id=&apos;portlet_com_hpe_prp_global_search_application&apos;]//div[4]//div[@id=&apos;searchFilterContent&apos;]//ul/li[2]/label/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="headerBanner" Key="{38628CE3-F952-4F4D-8117-D1EC5021A739}">
+										<Image FileName="213506717" Left="0" Top="130" Right="1897" Bottom="203" />
+										<Selectors>
+											<Selector>
+												<Value Value="#banner" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(., &apos;HPE Partner Ready&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@role=&apos;banner&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(@class, &apos;h-fit-content&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;wrapper&apos;]/header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkHeaderredirect" Key="{0B03008C-F9D0-472D-8E0E-4BC4F1FB5298}">
+										<Image FileName="213506717" Left="241" Top="130" Right="554" Bottom="202" />
+										<Selectors>
+											<Selector>
+												<Value Value="#headerRedirect" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(., &apos;HPE Partner Ready&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;heading&apos;]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeHpePartnerReady" Key="{1D1355A5-D58E-4424-852C-7CD24E55C108}">
+										<Image FileName="213506717" Left="313" Top="152" Right="502" Bottom="179" />
+										<TypeInfo Item0="{E0F6D8ED-263F-4993-AA3E-FED4B2D76BCD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;HPE Partner Ready&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[contains(@class, &apos;desktopHeader&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelArticolo" Key="{58391961-2770-432D-A539-FB8EC61D7409}">
+										<Image FileName="421945527" Left="353" Top="577" Right="609" Bottom="601" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Articolo&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//section//div[3]//ul/li[2]/label[contains(@class, &apos;checkboxContainer&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;articleTypes&apos;]//li[2]/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//section//div[3]//ul/li[2]/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode5" Key="{B861E9CE-3237-4782-83AA-6EFFB41EF2EE}">
+										<Image FileName="421945527" Left="353" Top="577" Right="377" Bottom="601" />
+										<TypeInfo Item0="{E0F6D8ED-263F-4993-AA3E-FED4B2D76BCD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//section//div[3]//ul/li[2]/label/span[contains(@class, &apos;checkmark&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;_com_hpe_prp_global_search_application_-root&apos;]//div[@id=&apos;articleTypes&apos;]//ul/li[2]/label/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@id=&apos;portlet_com_hpe_prp_global_search_application&apos;]//div[3]//div[@id=&apos;articleTypes&apos;]//ul/li[2]/label/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelMingguTerakhir" Key="{5D27A58D-B89D-45FE-9DD9-930796DF92F4}">
+										<Image FileName="-149777430" Left="353" Top="657" Right="609" Bottom="681" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Minggu terakhir&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//section//div[4]//ul/li/label[contains(@class, &apos;checkboxContainer&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;_com_hpe_prp_global_search_application_-root&apos;]//div[4]//ul/li/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//section//div[4]//ul/li/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode6" Key="{6C9255B9-3665-47EC-BB0D-A2EAC88A5017}">
+										<Image FileName="-149777430" Left="353" Top="657" Right="377" Bottom="681" />
+										<TypeInfo Item0="{E0F6D8ED-263F-4993-AA3E-FED4B2D76BCD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//section//div[4]//ul/li/label/span[contains(@class, &apos;checkmark&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;_com_hpe_prp_global_search_application_-root&apos;]//div[4]//div[@id=&apos;searchFilterContent&apos;]//ul/li/label/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@id=&apos;portlet_com_hpe_prp_global_search_application&apos;]//div[4]//div[@id=&apos;searchFilterContent&apos;]//ul/li/label/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkClearfilterdisplay" Key="{F15B1A40-D49E-4380-BAAC-2107F0511E4B}">
+										<Image FileName="-2020482862" Left="554" Top="273" Right="629" Bottom="297" />
+										<TypeInfo Item0="{E0F6D8ED-263F-4993-AA3E-FED4B2D76BCD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#clearFilterDisplay" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[.=&apos;Hapus Filter&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;_com_hpe_prp_global_search_application_-root&apos;]//a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//section//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelKontenDanAlat" Key="{FC7DE02E-74B6-41CC-99AB-4D814F5568DE}">
+										<Image FileName="140190076" Left="353" Top="401" Right="609" Bottom="425" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Konten dan alat&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//section//div[2]//ul/li/label[contains(@class, &apos;checkboxContainer&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;_com_hpe_prp_global_search_application_-root&apos;]//li/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//section//div[2]//ul/li/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode7" Key="{EBB70268-7313-4B90-8702-FAFA48D1AEDD}">
+										<Image FileName="140190076" Left="353" Top="401" Right="377" Bottom="425" />
+										<TypeInfo Item0="{E0F6D8ED-263F-4993-AA3E-FED4B2D76BCD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//section//div[2]//ul/li/label/span[contains(@class, &apos;checkmark&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//label/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelTidakAdaCatatanUntuk" Key="{A21A33F7-C37A-4381-908D-12A2ACAD9A3E}">
+										<Image FileName="-884158610" Left="695" Top="346" Right="1633" Bottom="370" />
+										<TypeInfo Item0="{D78EEEFF-A043-4502-9708-C8EB61FABFAD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;Tidak ada catatan untuk ditampilkan&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;sc-hmdomO&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageBerandaHpePartnerReadyPortal2" Key="{0EA29411-ADE8-43C0-A7AD-993ADED17F09}">
+								<TypeInfo Item0="{A2E90B6A-E992-4F5E-9136-9DE9B1E81330}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://partner.hpe.com/group/prp/settings" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionContent" Key="{92E56CE9-87D7-4932-9DFF-2A04AE4AE4E6}">
+										<Image FileName="785940950" Left="241" Top="203" Right="1657" Bottom="1883" />
+										<Selectors>
+											<Selector>
+												<Value Value="#content" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Pengaturan&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionDetailDiri" Key="{03CD583F-BEC0-4757-AD96-BE26F156242E}">
+										<Image FileName="785940950" Left="716" Top="323" Right="1609" Bottom="1811" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;OprPersonalDetails&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="selectSalam" Key="{7B61CDB6-3074-4707-96DC-0DFCFEEA1A22}">
+										<Image FileName="785940950" Left="728" Top="508" Right="810" Bottom="528" />
+										<TypeInfo Item0="{6CB2AD10-2CE4-4F00-9827-3C5C4ED23231}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//select[@id=(//label[contains(.,&apos;Salam&apos;)]/@for)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelAlamatSuratMenyurat" Key="{A71CA9ED-1443-4DF2-B95B-7466EDAA47EE}">
+										<Image FileName="-1532368920" Left="716" Top="289" Right="1163" Bottom="786" />
+										<TypeInfo Item0="{E0F6D8ED-263F-4993-AA3E-FED4B2D76BCD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[5]/div/div[contains(@class, &apos;col-md-6&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSimpan" Key="{0AABF1E3-3C3F-4849-A02C-5860D426DD4B}">
+										<Image FileName="-872596565" Left="1361" Top="686" Right="1561" Bottom="728" />
+										<TypeInfo Item0="{2C4113CC-3084-4F45-8715-43DAAC347673}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#personal-save-personal-cancel" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@value=&apos;Simpan&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;submitButton&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonTutup" Key="{33AFFA25-A6B5-4041-A122-E0ED6C15D91C}">
+										<Image FileName="1146413307" Left="1052" Top="588" Right="1182" Bottom="630" />
+										<TypeInfo Item0="{2C4113CC-3084-4F45-8715-43DAAC347673}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Tutup&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@role=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;btn-toolbar-button&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAdministrasi" Key="{9C1CC02B-0373-49A2-9AF6-F5EBD9980BDF}">
+										<Image FileName="785940950" Left="337" Top="627" Right="667" Bottom="707" />
+										<TypeInfo Item0="{E0F6D8ED-263F-4993-AA3E-FED4B2D76BCD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Administrasi&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div[5]//span[contains(@class, &apos;tab-node&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;layout-column_column-1&apos;]//div[5]/div/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div/div/div[5]/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeKelolaPengguna" Key="{43377775-5CCB-46DC-8923-8310B80D939C}">
+										<Image FileName="-783666022" Left="397" Top="667" Right="657" Bottom="708" />
+										<TypeInfo Item0="{E0F6D8ED-263F-4993-AA3E-FED4B2D76BCD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Kelola pengguna&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div/div[5]/div/div/span[contains(@class, &apos;tab-node&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;layout-column_column-1&apos;]//div[5]/div/div/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div/div[5]/div/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionPortletComHpePrpUserManag" Key="{F854DCF0-30C8-442D-9C31-F11E04BE0396}">
+										<Image FileName="-862824100" Left="716" Top="323" Right="1609" Bottom="1297" />
+										<Selectors>
+											<Selector>
+												<Value Value="#portlet_com_hpe_prp_user_management_v2_UserManagementV2Portlet" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;UserManagementV2&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;p_p_id_com_hpe_prp_user_management_v2_UserManagementV2Portlet_&apos;]/section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="selectManagelocationtypeactivefi" Key="{46839C89-6FAC-4462-A264-4AE9A083586B}">
+										<Image FileName="-862824100" Left="1234" Top="543" Right="1416" Bottom="583" />
+										<TypeInfo Item0="{6CB2AD10-2CE4-4F00-9827-3C5C4ED23231}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#manageLocationTypeActiveFilter" />
+											</Selector>
+											<Selector>
+												<Value Value="//select[@name=&apos;approvalRoleTypeFilter&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//select[contains(@class, &apos;user-location-filter-select&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;select-location-filter&apos;]/select" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//section//div//div[@id=&apos;select-location-filter&apos;]/select" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkManageuserlistActiveNext" Key="{E57CD004-6A06-4C37-9A63-A57D34634ADC}">
+										<Image FileName="-996616082" Left="1580" Top="794" Right="1609" Bottom="820" />
+										<Selectors>
+											<Selector>
+												<Value Value="#manageUserList_active_next" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageNext1Svg" Key="{2DBBCCE8-525E-4CDC-920C-3629CBC648DD}">
+										<Image FileName="-996616082" Left="1588" Top="798" Right="1601" Bottom="820" />
+										<TypeInfo Item0="{E0F6D8ED-263F-4993-AA3E-FED4B2D76BCD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[@id=&apos;manageUserList_active_next&apos;]/img" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//section//div[2]//div[@id=&apos;manageUserList_active_wrapper&apos;]//a[@id=&apos;manageUserList_active_next&apos;]/img" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="searchboxFindsearch" Key="{7D4FDDDC-F828-45FF-AB7F-05392FC2E729}">
+										<Image FileName="-1039160781" Left="718" Top="315" Right="1074" Bottom="359" />
+										<TypeInfo Item0="{B2D9449D-8C3F-4A77-AE1E-35E507CCCBF0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#findSearch" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;findSearch&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;activeUser&apos;]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="headerBanner" Key="{D963E8D6-FE8B-4427-96A4-4F862CE70D27}">
+										<Image FileName="1213116926" Left="0" Top="130" Right="1897" Bottom="203" />
+										<Selectors>
+											<Selector>
+												<Value Value="#banner" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(., &apos;HPE Partner Ready&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@role=&apos;banner&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(@class, &apos;h-fit-content&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;wrapper&apos;]/header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{4CE38613-3E1F-40F0-AFC8-FB3AFF361E2C}">
+										<Image FileName="1213116926" Left="1473" Top="154" Right="1657" Bottom="178" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;d-flex&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCloseImg" Key="{AF1687A6-9170-436E-AF4F-77EF7EFD1EF1}">
+										<Image FileName="1213116926" Left="1633" Top="154" Right="1657" Bottom="178" />
+										<Selectors>
+											<Selector>
+												<Value Value="#close-img" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(@class, &apos;close-img&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageUserCloseSvg" Key="{AB679B59-4F17-4553-9582-2F109D6A4BA8}">
+										<Image FileName="1213116926" Left="1633" Top="156" Right="1655" Bottom="178" />
+										<TypeInfo Item0="{E0F6D8ED-263F-4993-AA3E-FED4B2D76BCD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[@id=&apos;close-img&apos;]/a/img[contains(@src, &apos;User_close.svg&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;close-img&apos;]//img" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;close-img&apos;]/a/img" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndChrome_WidgetWin_1" Key="{2458A1B5-FB2C-4070-8ED5-8EE21BD5C05C}">
+								<Image FileName="1636761854" Left="0" Top="0" Right="81" Bottom="147" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Chrome_WidgetWin_1" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Chrome_RenderWidgetHostHWND" Key="{5A415469-FDFD-444B-BC0D-87A342703634}">
+										<Image FileName="1636761854" Left="0" Top="0" Right="81" Bottom="147" />
+										<TypeInfo Item0="{BBC7D781-5F31-4B5F-9376-908CB7952013}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Chrome_RenderWidgetHostHWND" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Chrome Legacy Window" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageBerandaHpePartnerReadyPortal3" Key="{5A1C36F2-5741-4A84-869F-48B520917093}">
+								<Image FileName="1469026313" Left="11" Top="141" Right="1931" Bottom="1019" />
+								<TypeInfo Item0="{86953207-7F1D-4F89-815E-5F5D7B654E8F}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://partner.hpe.com/hpe-customer-success" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageBerandaHpePartnerReadyPortal4" Key="{7EAD527F-99D3-43D5-9016-A56712738E55}">
+								<Image FileName="-1952263648" Left="11" Top="141" Right="1931" Bottom="1019" />
+								<TypeInfo Item0="{86953207-7F1D-4F89-815E-5F5D7B654E8F}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://partner.hpe.com/networking-customer-success" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="InputApp" Key="{DB1FDB38-67B9-475D-AC7C-EFA184B17D91}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="InputApp" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndWindowsUICoreCoreWindow" Key="{2DAC925A-4638-49B3-84AB-D7AD56E78FC6}">
+								<Image FileName="286209316" Left="0" Top="0" Right="540" Bottom="600" />
+								<TypeInfo Item0="{9190FA14-1B15-4096-8986-2853D587F357}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Windows.UI.Core.CoreWindow" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Windows Input Experience" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="ApplicationFrameHost" Key="{C033F3CD-5990-49FA-A24A-667EA8E58518}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="ApplicationFrameHost" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndWhatsApp" Key="{3D1F554D-F306-4C29-8172-F9600457C27A}">
+								<Image FileName="1571171089" Left="-11" Top="-11" Right="1931" Bottom="1019" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="ApplicationFrameWindow" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="WhatsApp" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="Slack" Key="{2FE63CEA-8CC7-4D70-9270-0836F558AA14}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="Slack" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndChrome_WidgetWin_1" Key="{C237AEE6-98BC-4638-9CE4-5B04E3922BA8}">
+								<Image FileName="-2032057866" Left="-11" Top="-11" Right="1931" Bottom="1019" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Chrome_WidgetWin_1" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Chrome_RenderWidgetHostHWND" Key="{FD8DD17D-C448-4F7A-B09B-A4745748BF60}">
+										<Image FileName="-2032057866" Left="0" Top="0" Right="1920" Bottom="1008" />
+										<TypeInfo Item0="{BBC7D781-5F31-4B5F-9376-908CB7952013}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Chrome_RenderWidgetHostHWND" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Chrome Legacy Window" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="explorer" Key="{A5357B6F-F418-467B-B210-F58C6B65D5E5}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndShell_TrayWnd" Key="{12610698-DD6C-48A1-91A0-832E32AB9A8A}">
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_TrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="DesktopWindowXamlSource" Key="{9D65261B-2E97-4A63-A78E-2C0472CCD7C3}">
+										<TypeInfo Item0="{BBC7D781-5F31-4B5F-9376-908CB7952013}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Windows.UI.Composition.DesktopWindowContentBridge" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="DesktopWindowXamlSource" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="ShellHost" Key="{5DB5A24A-4BF6-4C55-8C8C-F69EED33EACC}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="ShellHost" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndControlCenterWindow" Key="{55FEA441-9CCC-449A-B0EC-5152E1EBB3F6}">
+								<Image FileName="447050611" Left="0" Top="0" Right="576" Bottom="1008" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="ControlCenterWindow" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Quick settings" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="DesktopWindowXamlSource" Key="{E4591A42-083E-4841-89BD-3EF8AC8C18D7}">
+										<Image FileName="447050611" Left="0" Top="0" Right="576" Bottom="1008" />
+										<TypeInfo Item0="{BBC7D781-5F31-4B5F-9376-908CB7952013}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Windows.UI.Composition.DesktopWindowContentBridge" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="DesktopWindowXamlSource" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="WindowsUIInputInputSiteWindowClass" Key="{05A5E22D-48B0-4290-86A2-741B37D97F3B}">
+												<Image FileName="-487353295" Left="0" Top="0" Right="0" Bottom="0" />
+												<TypeInfo Item0="{BBC7D781-5F31-4B5F-9376-908CB7952013}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="Windows.UI.Input.InputSite.WindowClass" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndPopupHost" Key="{E193CC5C-5C99-4309-90B1-80B73CDAEB7B}">
+								<Image FileName="1403462090" Left="0" Top="0" Right="178" Bottom="181" />
+								<TypeInfo Item0="{9190FA14-1B15-4096-8986-2853D587F357}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Xaml_WindowedPopupClass" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="PopupHost" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{4DA5F64F-9FE0-4D62-A7C1-C55814CFC417}">
+			<Child Name="BrowserWindow" Owner="{035F310E-480F-4280-AF96-12BC952E2297}">
+				<Child Name="Chrome_RenderWidgetHostHWND" Owner="{778BCF16-BEAF-4525-A966-F4666537EB42}" />
+			</Child>
+			<Child Name="pageSignInHpePartnerReadyPortal" Owner="{5E0B8350-C58D-41C8-97B7-0C713226D43F}">
+				<Child Name="sectionContent" Owner="{976F50BE-1FC1-4C47-BBBD-CE555441F482}">
+					<Child Name="sectionPortletLoginportlet" Owner="{1B97C22F-A7B1-441A-93B7-8D94FB4749B7}">
+						<Child Name="textboxOktaemailinput" Owner="{0FB8311A-5CF7-42F9-BEB0-82EFD06FADCB}" />
+						<Child Name="buttonOktasigninbtn" Owner="{AA62AF3A-42B2-402A-B671-5FC52A49CB26}" />
+						<Child Name="headerMasuk" Owner="{D76F283C-E65A-49EF-A847-E3AD4D81C720}" />
+						<Child Name="labelSimpanInformasiMasuk" Owner="{F4A23140-C264-4B58-AE49-E673869FEBD5}">
+							<Child Name="textnodeSimpanInformasiMasuk" Owner="{73FD2591-4759-425B-9976-CEC8EC82267F}" />
+						</Child>
+					</Child>
+					<Child Name="sectionDaftar" Owner="{882D300F-BEBB-4ED0-98E4-83DCB5FD822D}">
+						<Child Name="linkDaftar" Owner="{5501BBE1-3704-4760-B81B-9874968599E6}" />
+						<Child Name="panelDaftar" Owner="{8EC82ADE-C88E-4FEF-A2D1-B65A3F00D83A}" />
+						<Child Name="textnodeHpePartnerReadyPortal" Owner="{CCAA5412-6321-4B1B-A834-C2264A917A13}" />
+					</Child>
+					<Child Name="sectionHpePartnerReadyPortal" Owner="{2C3958CA-CB97-4525-B1EF-A36749334A47}">
+						<Child Name="panel3" Owner="{89ECAFEA-E10A-4D20-9CE9-B34296EB9840}" />
+					</Child>
+				</Child>
+				<Child Name="panel" Owner="{5CC931B6-8FC2-4FB0-9CF1-598F985CF2B8}" />
+				<Child Name="panel2" Owner="{F5AD73B2-6592-4EF6-9186-FE9EC5146914}" />
+				<Child Name="textnodeSennaSurface1" Owner="{E59F8330-E04A-4A59-B29C-8458FD51C7B6}" />
+				<Child Name="linkHpehfHpeLogo" Owner="{DC1F9BE7-C0FD-4B36-8F91-456924BB4E1A}">
+					<Child Name="vgHpehfLogoMobile" Owner="{2DC062AA-E9F9-453B-BB4E-22C391BBA549}" />
+				</Child>
+			</Child>
+			<Child Name="pageSignInHpePartnerReadyPortal2" Owner="{2185C9A0-BFBD-4E77-9B64-91C465A90CA9}">
+				<Child Name="passwordboxPassword" Owner="{B08822A6-D291-4C68-9ED8-74C036757518}" />
+				<Child Name="buttonOnepassSubmitBtn" Owner="{5ED4315F-D609-41DC-A1BE-261A9607298A}" />
+				<Child Name="textnodeInvalidCredentials" Owner="{33D33329-9653-44C9-B056-15AECFAC03AC}" />
+				<Child Name="textnode" Owner="{9AC8169B-D16B-4558-8475-5271E0309C74}" />
+				<Child Name="textnodeInvalidCredentials2" Owner="{0BD3CEED-2A70-4FBC-BBA5-BA89717FCBE5}" />
+				<Child Name="passwordboxPassword2" Owner="{222F3314-939E-4B10-9EBA-E9831C9F3BC1}" />
+				<Child Name="panelSignIn" Owner="{27C7113F-71B3-4773-89F9-BC2BCE5F8100}" />
+			</Child>
+			<Child Name="pagePartnerHpeCom" Owner="{A3A69A7B-1A4A-47D2-A89A-AFEAF0F1CC7B}">
+				<Child Name="sectionContent" Owner="{2F82154B-32F1-4815-8197-B718B605F849}">
+					<Child Name="sectionTutupPesan" Owner="{38D0C04D-661C-48E4-A24C-2888B95217B5}">
+						<Child Name="panelClosemsg" Owner="{8BD480B0-82FE-4386-AC11-2DD542819CA0}" />
+						<Child Name="textnodeCloseMessage" Owner="{24CBDF80-950A-4AFE-B0EF-D29809DCF3DA}" />
+					</Child>
+					<Child Name="sectionYangBaru" Owner="{34F5A2CB-F52A-429B-A70C-69A5E6356922}">
+						<Child Name="panelYangBaru" Owner="{21762155-3F73-4D7D-8393-C7CAB98EAA6E}" />
+					</Child>
+				</Child>
+				<Child Name="textnodeSennaSurface1" Owner="{22401B04-0FF8-4D13-8D13-EB0A619F3DB8}" />
+				<Child Name="headerBanner" Owner="{29BC1A6C-AB90-410C-8819-BAA25A5878CA}">
+					<Child Name="panel0" Owner="{5EF9F29C-3C10-4DA0-B45D-8640660DE4EF}" />
+					<Child Name="panel" Owner="{200F3BA0-886D-48D4-B771-E6D0A9A03965}" />
+					<Child Name="textboxCustomcommonsearch" Owner="{38D0AC8C-D544-4DF9-8772-1EDE47330004}" />
+					<Child Name="textnode0" Owner="{772E909D-0C27-449C-A44C-E95BABB3194F}">
+						<Child Name="linkUsericonimg" Owner="{053DFD9F-9B7C-4356-A3CB-ABDF10436D4A}">
+							<Child Name="imageUserSvg" Owner="{AE469458-480A-4778-AF0E-2472688E3856}" />
+							<Child Name="imageUserSvg2" Owner="{903712A7-E191-4F3D-B6D4-8B641417589A}" />
+							<Child Name="imageUserSvg3" Owner="{86F67BA6-2C7C-40F6-AAF5-1374584A2A67}" />
+							<Child Name="imageUserSvg4" Owner="{0A754BD8-77F6-4EB3-9F86-8F757BBCF68E}" />
+						</Child>
+						<Child Name="linkUrl" Owner="{20098635-2798-4894-99B0-C5C604D02D44}">
+							<Child Name="textnodePengaturan" Owner="{C5B23722-3C2B-4EAE-ADF9-56B12DBF4272}" />
+						</Child>
+						<Child Name="link" Owner="{5E1A2308-D81A-4B37-AE6C-A242774AB7B6}">
+							<Child Name="imageSearchSvg" Owner="{B0437398-FCEE-4B3D-9A98-1A855F4A7F39}" />
+						</Child>
+						<Child Name="textnodeKeluar" Owner="{537ED627-7D70-4373-86D1-2851BBD2F5FD}">
+							<Child Name="textnodeKeluar2" Owner="{E32519EC-77E3-40DD-9979-EB9E50AB76EF}" />
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="sectionSidenavbar" Owner="{5390B548-C23B-401C-BB45-2C9867160FC8}">
+					<Child Name="textnodeHalamanSitus" Owner="{D0347BD8-A1E5-47A9-9C4A-F4D926A953B8}">
+						<Child Name="linkHpePartnerReadyVantage" Owner="{33EBF328-F32A-4E3C-8596-2B0C37A3C944}">
+							<Child Name="textnodeHpePartnerReadyVantage" Owner="{1B2B25F6-E0DD-4721-A5BE-E414C7523421}" />
+							<Child Name="textnode" Owner="{D7F2EAF8-4E2F-43C8-BD0A-D6230342F597}" />
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="navTestsecondsidenavi" Owner="{1349E173-A234-476F-9F23-FAA6EF59715F}">
+					<Child Name="textnodeHalamanSitus2" Owner="{9627FEED-E8F7-4793-A5A1-702C2003640B}">
+						<Child Name="linkSellTrack" Owner="{5AD883CE-77B7-4485-9BDC-0EB3E8501D0D}" />
+					</Child>
+				</Child>
+				<Child Name="navTestsidenavi" Owner="{49544EB0-49EA-4A7D-8417-ACC9A01CD441}">
+					<Child Name="textnodeHalamanSitus3" Owner="{B8365FDD-CBF1-4168-AEAF-3F9DA9037CE8}">
+						<Child Name="textnodeSellTrack" Owner="{65CD8696-B417-4D8A-87D5-78364408D3A8}">
+							<Child Name="linkAsAService" Owner="{35304CBB-E94E-4729-BBB4-E0770F86182F}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageBerandaHpePartnerReadyPortal" Owner="{A336CFA6-E5C2-4244-8139-AB356EA0B31C}">
+				<Child Name="sectionContent" Owner="{BC6BA0D3-E844-4D2C-82D6-0D587DCF1333}">
+					<Child Name="sectionTutupPesan" Owner="{7637F076-7FF6-49DC-8CD6-4964668DB079}">
+						<Child Name="panelClosemsg" Owner="{0BB29385-5AD3-4753-B330-CF08D125DD08}" />
+					</Child>
+				</Child>
+				<Child Name="headerBanner" Owner="{6B8C7621-A020-412E-8D09-64CE2980B98E}">
+					<Child Name="textnode0" Owner="{101A9FD8-3E36-4774-A8A8-16DCB011B031}">
+						<Child Name="link" Owner="{58EB6AB1-E4A1-47F2-8726-86D99DF6BA61}">
+							<Child Name="imageSearchSvg" Owner="{8C7E05E6-874A-4952-A0A8-EB7E69F9F38D}" />
+						</Child>
+						<Child Name="linkUsericonimg" Owner="{37CD5F28-B92C-4509-A223-D13C3FCAFF98}">
+							<Child Name="imageUserSvg" Owner="{8D78C5CF-6644-4566-91B4-FE5870109725}" />
+						</Child>
+						<Child Name="textnodeKeluar" Owner="{A5246648-D8CF-4E11-9A9D-8EF72C19D939}">
+							<Child Name="textnodeKeluar2" Owner="{19F2EB6D-D572-4E0E-989C-23AC85559A50}" />
+							<Child Name="linkKeluar" Owner="{9EA26AC8-C0A0-4862-8F6B-05F085A39683}" />
+						</Child>
+					</Child>
+					<Child Name="textboxCustomcommonsearch" Owner="{8337597B-0C6E-4386-BAAA-BF60381D69E1}" />
+					<Child Name="panel0" Owner="{69E7E7D9-8D53-49C1-A1FE-5F3177AE4A4B}" />
+				</Child>
+				<Child Name="sectionSidenavbar" Owner="{35AD8717-A402-4D17-936B-EB2CE7361DBD}">
+					<Child Name="textnodeHalamanSitus" Owner="{6747DF65-587C-4311-BBFE-CC710C6950A7}">
+						<Child Name="linkHpePartnerReadyVantage" Owner="{813DAFCA-4B2E-4E2B-A1AF-C78FC84D991B}">
+							<Child Name="textnodeHpePartnerReadyVantage" Owner="{CEE85432-D965-4C10-847E-D97AD12397A8}" />
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="navTestsecondsidenavi" Owner="{16226B84-BA02-4517-BBA0-409E98EB4223}">
+					<Child Name="textnodeHalamanSitus2" Owner="{9B8F2E61-59C3-4FAB-9042-36F89D3E4946}">
+						<Child Name="linkServiceTrack" Owner="{75570196-0C7A-4AE2-8D72-68C1FBBAB0B0}" />
+					</Child>
+				</Child>
+				<Child Name="navTestsidenavi" Owner="{5E5E8581-6BD8-403E-90F0-A7AE5E1D5BF1}">
+					<Child Name="textnodeHalamanSitus3" Owner="{4C6E30DE-C11E-4476-8AA3-83650E5873C7}">
+						<Child Name="textnodeServiceTrack" Owner="{33C14C79-AE97-4A18-98F8-9C7424178772}">
+							<Child Name="linkCustomerSuccess" Owner="{6FEFCD80-58BD-4014-8FD0-FA80BEEA9389}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageAutomasiTestHpePartner" Owner="{4E86E1A7-AC0A-44C2-A922-9C8F851A96E1}">
+				<Child Name="headerHpePartnerTest" Owner="{DA47AA49-BAD4-49AE-B481-34E84A67C1B5}">
+					<Child Name="panelHpePartnerTest" Owner="{451B1C84-8AFB-44D4-9162-1FA1FE040520}" />
+					<Child Name="buttonHpePartnerTest" Owner="{5EFB8E95-A057-47CD-ACF3-A7D4D1E6C524}" />
+				</Child>
+				<Child Name="textnodeChatgpt" Owner="{22BD0C96-D236-4497-A6D8-D81E0E25C6BA}" />
+				<Child Name="panelBerikutAdalahTestCaseUntuk" Owner="{CFD28068-BC57-447B-A029-29E011C23C31}" />
+				<Child Name="form" Owner="{918CC76F-661B-4784-A1F3-6F9967C0536A}">
+					<Child Name="panel" Owner="{5E72C9AB-60CA-403D-AF92-1DEE02196E4C}" />
+					<Child Name="panel2" Owner="{08A26236-6E32-459A-B5BC-0828AA9F8459}" />
+				</Child>
+			</Child>
+			<Child Name="pageCustomSearch" Owner="{DD50437A-D9CA-4076-8C40-0E8EF717D859}">
+				<Child Name="sectionContent" Owner="{2D975141-9F85-45E1-9A39-B9E009A62F2D}">
+					<Child Name="sectionPortletComHpePrpGlobalSea" Owner="{ABF373CF-300B-4A34-B021-0766064E0BC9}">
+						<Child Name="labelDokumen" Owner="{2C879D7D-6F9F-489D-95AA-E1BC68B3C8CF}">
+							<Child Name="textnode" Owner="{8444276C-669B-4E9E-B073-0936DEC55C60}" />
+						</Child>
+						<Child Name="labelZip" Owner="{7C81B5B2-A411-4EBA-9D1D-1E6D45F9AD32}">
+							<Child Name="textnode2" Owner="{CDFEF610-9406-44E9-B6A4-D486512A60C8}" />
+						</Child>
+						<Child Name="labelJarakKostum" Owner="{4455F6FA-610E-49CB-B529-130F488F1386}">
+							<Child Name="textnode3" Owner="{E6B51FF4-C6C8-4F27-9E5A-70507AB5216F}" />
+						</Child>
+						<Child Name="labelBulanTerakhir" Owner="{02B68B4C-86DE-49C3-98E2-0B1DCE024105}">
+							<Child Name="textnode4" Owner="{D6F69BFA-D12C-45E7-A9C4-CDEDA58D6E96}" />
+						</Child>
+						<Child Name="labelArticolo" Owner="{58391961-2770-432D-A539-FB8EC61D7409}">
+							<Child Name="textnode5" Owner="{B861E9CE-3237-4782-83AA-6EFFB41EF2EE}" />
+						</Child>
+						<Child Name="labelMingguTerakhir" Owner="{5D27A58D-B89D-45FE-9DD9-930796DF92F4}">
+							<Child Name="textnode6" Owner="{6C9255B9-3665-47EC-BB0D-A2EAC88A5017}" />
+						</Child>
+						<Child Name="linkClearfilterdisplay" Owner="{F15B1A40-D49E-4380-BAAC-2107F0511E4B}" />
+						<Child Name="labelKontenDanAlat" Owner="{FC7DE02E-74B6-41CC-99AB-4D814F5568DE}">
+							<Child Name="textnode7" Owner="{EBB70268-7313-4B90-8702-FAFA48D1AEDD}" />
+						</Child>
+						<Child Name="panelTidakAdaCatatanUntuk" Owner="{A21A33F7-C37A-4381-908D-12A2ACAD9A3E}" />
+					</Child>
+				</Child>
+				<Child Name="headerBanner" Owner="{38628CE3-F952-4F4D-8117-D1EC5021A739}">
+					<Child Name="linkHeaderredirect" Owner="{0B03008C-F9D0-472D-8E0E-4BC4F1FB5298}">
+						<Child Name="textnodeHpePartnerReady" Owner="{1D1355A5-D58E-4424-852C-7CD24E55C108}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageBerandaHpePartnerReadyPortal2" Owner="{0EA29411-ADE8-43C0-A7AD-993ADED17F09}">
+				<Child Name="sectionContent" Owner="{92E56CE9-87D7-4932-9DFF-2A04AE4AE4E6}">
+					<Child Name="sectionDetailDiri" Owner="{03CD583F-BEC0-4757-AD96-BE26F156242E}">
+						<Child Name="selectSalam" Owner="{7B61CDB6-3074-4707-96DC-0DFCFEEA1A22}" />
+						<Child Name="panelAlamatSuratMenyurat" Owner="{A71CA9ED-1443-4DF2-B95B-7466EDAA47EE}" />
+						<Child Name="buttonSimpan" Owner="{0AABF1E3-3C3F-4849-A02C-5860D426DD4B}" />
+					</Child>
+					<Child Name="textnodeAdministrasi" Owner="{9C1CC02B-0373-49A2-9AF6-F5EBD9980BDF}" />
+					<Child Name="textnodeKelolaPengguna" Owner="{43377775-5CCB-46DC-8923-8310B80D939C}" />
+					<Child Name="sectionPortletComHpePrpUserManag" Owner="{F854DCF0-30C8-442D-9C31-F11E04BE0396}">
+						<Child Name="selectManagelocationtypeactivefi" Owner="{46839C89-6FAC-4462-A264-4AE9A083586B}" />
+						<Child Name="linkManageuserlistActiveNext" Owner="{E57CD004-6A06-4C37-9A63-A57D34634ADC}">
+							<Child Name="imageNext1Svg" Owner="{2DBBCCE8-525E-4CDC-920C-3629CBC648DD}" />
+						</Child>
+						<Child Name="searchboxFindsearch" Owner="{7D4FDDDC-F828-45FF-AB7F-05392FC2E729}" />
+					</Child>
+				</Child>
+				<Child Name="buttonTutup" Owner="{33AFFA25-A6B5-4041-A122-E0ED6C15D91C}" />
+				<Child Name="headerBanner" Owner="{D963E8D6-FE8B-4427-96A4-4F862CE70D27}">
+					<Child Name="textnode" Owner="{4CE38613-3E1F-40F0-AFC8-FB3AFF361E2C}">
+						<Child Name="textnodeCloseImg" Owner="{AF1687A6-9170-436E-AF4F-77EF7EFD1EF1}">
+							<Child Name="imageUserCloseSvg" Owner="{AB679B59-4F17-4553-9582-2F109D6A4BA8}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="wndChrome_WidgetWin_1" Owner="{2458A1B5-FB2C-4070-8ED5-8EE21BD5C05C}">
+				<Child Name="Chrome_RenderWidgetHostHWND" Owner="{5A415469-FDFD-444B-BC0D-87A342703634}" />
+			</Child>
+			<Child Name="pageBerandaHpePartnerReadyPortal3" Owner="{5A1C36F2-5741-4A84-869F-48B520917093}" />
+			<Child Name="pageBerandaHpePartnerReadyPortal4" Owner="{7EAD527F-99D3-43D5-9016-A56712738E55}" />
+		</Child>
+		<Child Name="InputApp" Owner="{DB1FDB38-67B9-475D-AC7C-EFA184B17D91}">
+			<Child Name="wndWindowsUICoreCoreWindow" Owner="{2DAC925A-4638-49B3-84AB-D7AD56E78FC6}" />
+		</Child>
+		<Child Name="ApplicationFrameHost" Owner="{C033F3CD-5990-49FA-A24A-667EA8E58518}">
+			<Child Name="wndWhatsApp" Owner="{3D1F554D-F306-4C29-8172-F9600457C27A}" />
+		</Child>
+		<Child Name="Slack" Owner="{2FE63CEA-8CC7-4D70-9270-0836F558AA14}">
+			<Child Name="wndChrome_WidgetWin_1" Owner="{C237AEE6-98BC-4638-9CE4-5B04E3922BA8}">
+				<Child Name="Chrome_RenderWidgetHostHWND" Owner="{FD8DD17D-C448-4F7A-B09B-A4745748BF60}" />
+			</Child>
+		</Child>
+		<Child Name="explorer" Owner="{A5357B6F-F418-467B-B210-F58C6B65D5E5}">
+			<Child Name="wndShell_TrayWnd" Owner="{12610698-DD6C-48A1-91A0-832E32AB9A8A}">
+				<Child Name="DesktopWindowXamlSource" Owner="{9D65261B-2E97-4A63-A78E-2C0472CCD7C3}" />
+			</Child>
+		</Child>
+		<Child Name="ShellHost" Owner="{5DB5A24A-4BF6-4C55-8C8C-F69EED33EACC}">
+			<Child Name="wndControlCenterWindow" Owner="{55FEA441-9CCC-449A-B0EC-5152E1EBB3F6}">
+				<Child Name="DesktopWindowXamlSource" Owner="{E4591A42-083E-4841-89BD-3EF8AC8C18D7}">
+					<Child Name="WindowsUIInputInputSiteWindowClass" Owner="{05A5E22D-48B0-4290-86A2-741B37D97F3B}" />
+				</Child>
+			</Child>
+			<Child Name="wndPopupHost" Owner="{E193CC5C-5C99-4309-90B1-80B73CDAEB7B}" />
+		</Child>
+	</LogicalNodes>
+</Root>

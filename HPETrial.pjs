@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{B0CA02C7-F070-48E7-8F2D-4D5CB3842BF7}">
+	<children>
+		<child name="HPETrial" key="{7B5081EA-FA43-4266-9DCF-D0CA69B0643F}" path="HPETrial\HPETrial.mds" />
+	</children>
+	<testItems key="{9756A879-6432-4C5F-97B7-88001C3DD229}">
+		<children>
+			<testItem key="{7B5081EA-FA43-4266-9DCF-D0CA69B0643F}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{3015A2F5-C6F6-49E7-B85E-5ADD49D3CED8}" />
+	<analysis key="{9219F78A-E458-459D-A053-A1B75F8B1B42}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>

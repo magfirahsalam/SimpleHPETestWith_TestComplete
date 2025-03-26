@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<child name="Login_valid_credential" key="{01E35F8B-05D4-493E-BF63-F31465A59960}" path="Login_valid_credential.tcKDTest" />
+		<child name="Search_Valid_input" key="{699F94CD-5674-40A7-B80D-9A284BB04FFD}" path="Search_Valid_input.tcKDTest" />
+		<child name="View_Notification" key="{DA73AA0D-B5AB-4555-BC80-EEB4D3351971}" path="View_Notification.tcKDTest" />
+		<child name="Logout" key="{2735D6ED-54BF-4224-AFDA-8F9AC992645E}" path="Logout.tcKDTest" />
+		<child name="Login_Invalid_Credential" key="{7184EEFF-B341-484F-AC0C-D4F6E24C8687}" path="Login_Invalid_Credential.tcKDTest" />
+		<child name="Search_Invalid_input" key="{0113130C-EAF6-4819-91D7-46B3EA153AD5}" path="Search_Invalid_input.tcKDTest" />
+	</children>
+</Root>

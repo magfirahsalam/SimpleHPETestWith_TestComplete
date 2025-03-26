@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="Sc_Login_Invalid_Credential_converted" key="{96A31661-9843-47E9-A6CA-964085FB2FCD}" path="Sc_Login_Invalid_Credential_converted.js" />
+		<child name="Sc_Login_Valid_Credentials" key="{1190CB89-05B8-47C5-AD79-0EEC8B610EC0}" path="Sc_Login_Valid_Credentials.js" />
+		<child name="Pre_enrollment" key="{AD6C2321-FCD9-4B4B-AA5F-6FB0FD589D6D}" path="Pre_enrollment.js" />
+		<child name="Search" key="{5E74C133-B79E-4CF1-9F43-8CF93298BE4D}" path="Search.js" />
+		<child name="Logout" key="{69C49798-229C-4A38-8C9E-0DBFE7D75496}" path="Logout.js" />
+		<child name="Sc_Login_Invalid_Credential" key="{22D97161-B7EC-44C8-8402-7AACC10673E1}" path="Sc_Login_Invalid_Credential.js" />
+	</children>
+</Root>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{AD6C2321-FCD9-4B4B-AA5F-6FB0FD589D6D}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="12" kind="0" dateTime="45742.090775463" objectName="Aliases.browser.pagePartnerHpeCom.sectionContent.sectionTutupPesan.panelClosemsg" objectLeft="1589" objectTop="219" objectRight="1717" objectBottom="246" clickPointX="1665" clickPointY="235" imageFileName="tcvi84745718104002.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="13" kind="0" dateTime="45742.0908101852" objectName="Aliases.browser.pagePartnerHpeCom.sectionSidenavbar.textnodeHalamanSitus.linkHpePartnerReadyVantage.textnode" objectLeft="477" objectTop="482" objectRight="485" objectBottom="503" clickPointX="479" clickPointY="492" imageFileName="tcvi84748593104003.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="14" kind="0" dateTime="45742.0908333333" objectName="Aliases.browser.pagePartnerHpeCom.navTestsecondsidenavi.textnodeHalamanSitus2.linkSellTrack" objectLeft="539" objectTop="567" objectRight="856" objectBottom="594" clickPointX="725" clickPointY="583" imageFileName="tcvi84750140104004.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="15" kind="0" dateTime="45742.0908449074" objectName="Aliases.browser.pagePartnerHpeCom.navTestsidenavi.textnodeHalamanSitus3.textnodeSellTrack.linkAsAService" objectLeft="910" objectTop="680" objectRight="1250" objectBottom="707" clickPointX="973" clickPointY="698" imageFileName="tcvi84751359104005.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

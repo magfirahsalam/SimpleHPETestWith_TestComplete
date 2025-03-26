@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="HPETrial" tests="4"  failures="0" errors="0" time="39" >
+  <testsuite name="HPETrial" tests="4" failures="0" errors="0" hostname="MGPC" time="38" timestamp="2025-03-26T09:54:01.702+07:00">
+    <testcase name="Test1" time="9" classname="HPETrial">
+    </testcase>
+    <testcase name="Test1_2" time="15" classname="HPETrial">
+    </testcase>
+    <testcase name="Test1_3" time="9" classname="HPETrial">
+    </testcase>
+    <testcase name="Test1_4" time="6" classname="HPETrial">
+    </testcase>
+  </testsuite>
+</testsuites>

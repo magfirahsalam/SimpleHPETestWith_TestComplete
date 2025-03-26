@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="HPETrial" tests="3"  failures="0" errors="0" time="53" >
+  <testsuite name="HPETrial" tests="3" failures="0" errors="0" hostname="MGPC" time="51" timestamp="2025-03-25T13:02:50.928+07:00">
+    <testcase name="Login_valid_credential" time="22" classname="HPETrial">
+    </testcase>
+    <testcase name="Search_Valid_input" time="18" classname="HPETrial">
+    </testcase>
+    <testcase name="Logout" time="11" classname="HPETrial">
+    </testcase>
+  </testsuite>
+</testsuites>

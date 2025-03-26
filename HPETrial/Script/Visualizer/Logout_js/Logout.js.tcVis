@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{69C49798-229C-4A38-8C9E-0DBFE7D75496}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="45742.1130671296" objectName="Aliases.browser.BrowserWindow" objectLeft="-11" objectTop="-11" objectRight="1931" objectBottom="1019" clickPointX="142" clickPointY="99" imageFileName="tcvi86671859212080.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="8" kind="0" dateTime="45742.113125" objectName="Aliases.browser.pageBerandaHpePartnerReadyPortal.sectionContent.sectionTutupPesan.panelClosemsg" objectLeft="1589" objectTop="219" objectRight="1717" objectBottom="246" clickPointX="1695" clickPointY="235" imageFileName="tcvi86676796212084.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="10" kind="0" dateTime="45742.1131365741" objectName="Aliases.browser.pageBerandaHpePartnerReadyPortal.headerBanner.textnode0.linkUsericonimg.imageUserSvg" objectLeft="1718" objectTop="238" objectRight="1743" objectBottom="263" clickPointX="1729" clickPointY="252" imageFileName="tcvi86677796212085.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="11" kind="0" dateTime="45742.1131597222" objectName="Aliases.browser.pageBerandaHpePartnerReadyPortal.headerBanner.textnode0.textnodeKeluar.linkKeluar" objectLeft="1365" objectTop="802" objectRight="1562" objectBottom="885" clickPointX="1466" clickPointY="859" imageFileName="tcvi86679140212088.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>
